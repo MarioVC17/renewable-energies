@@ -21,6 +21,26 @@ body {
     font-weight: bold;
 }
 
+.content {
+    width: 96%;
+    margin: auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.text {
+    flex: 1;
+    font-family: 'Spartan', sans-serif;
+}
+
+.img-info {
+    width: 40%;
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
 .img {
     background: url(../img-slider/background.jpg);
     height: calc(108vh - 73px);
@@ -28,6 +48,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 100;
+    margin-bottom: 2%;
 }
 
 .box-tipos {
